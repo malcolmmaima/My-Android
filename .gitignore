@@ -1,5 +1,5 @@
 # Android / Gradle
-.gradle/
+.gradle/*
 **/build/
 .externalNativeBuild/
 .cxx/

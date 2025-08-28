@@ -22,10 +22,11 @@ import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
+import androidx.navigation.compose.rememberNavController
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import malcolm.android.dev.newemptycomposeapp.ui.screens.mainScreen
+import malcolm.android.dev.newemptycomposeapp.navigation.AppNavigation
 import malcolm.android.dev.newemptycomposeapp.ui.theme.newEmptyComposeAppTheme
 
 @AndroidEntryPoint
@@ -37,7 +38,8 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             newEmptyComposeAppTheme {
-                mainScreen()
+                val navController = rememberNavController()
+                AppNavigation(navController = navController)
             }
         }
     }

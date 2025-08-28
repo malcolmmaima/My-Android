@@ -1,0 +1,8 @@
+[*.{kt,kts}]
+# Disable KTLint rules that conflict with Android/Compose conventions
+ktlint_standard_function-naming = disabled
+ktlint_standard_filename = disabled
+
+# Other KTLint settings
+ktlint_code_style = android_studio
+ktlint_standard_no-wildcard-imports = enabled

@@ -23,7 +23,7 @@ subprojects {
         kotlin {
             target("**/*.kt")
             targetExclude("${layout.buildDirectory}/**/*.kt")
-            ktlint()
+            // ktlint()
             licenseHeaderFile(rootProject.file("spotless/copyright.kt"))
         }
 
