@@ -1,0 +1,42 @@
+# Android / Gradle
+.gradle/
+**/build/
+.externalNativeBuild/
+.cxx/
+/captures/
+
+# Local configuration
+local.properties
+
+# IDE (IntelliJ / Android Studio)
+*.iml
+.idea/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Packages / Binaries
+*.apk
+*.ap_
+*.aab
+
+# Keystore files (do not commit signing keys)
+*.jks
+*.keystore
+
+# Logs
+*.log
+
+# Navigation temp files
+.navigation/
+
+# Google Services (uncomment if present and should be private)
+# app/google-services.json
+
+# Misc
+*.swp
+*.swo
