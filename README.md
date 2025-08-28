@@ -113,8 +113,8 @@ gradle.properties                    # Gradle properties
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/android-mvvm-compose-boilerplate.git
-   cd android-mvvm-compose-boilerplate
+   git clone https://github.com/malcolmmaima/My-Android.git
+   cd My-Android
    ```
 
 2. **Open in Android Studio**
